@@ -21,7 +21,7 @@ jobs:
           server: ${{ secrets.SERVER }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          server-dir: /test.codeascend.xyz/ # Ensure the server directory exists
+          server-dir: ./ # Ensure the server directory exists
           exclude: |
             .git*
             .github/
