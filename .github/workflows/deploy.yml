@@ -3,7 +3,7 @@ name: Deploy to cPanel via FTP
 on:
   push:
     branches:
-      - deployment # Trigger deployment on pushes to the 'main' branch
+      - cpanel # Trigger deployment on pushes to the 'main' branch
 
 jobs:
   deploy:
