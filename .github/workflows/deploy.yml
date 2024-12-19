@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           local-dir: ./ # Specify the local directory to upload
-          server-dir: /public_html # Specify the directory on your FTP server
+          server-dir: /home/codeasce/test.codeascend.xyz/ # Specify the directory on your FTP server
           exclude: |
             .git*
             .github/
