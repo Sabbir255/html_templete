@@ -22,10 +22,11 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           local-dir: ./ # Specify the local directory to upload
-          server-dir: /test.codeascend.xyz/
+          server-dir: /home/codeasce/test.codeascend.xyz/ # Ensure the server directory exists
           exclude: |
             .git*
             .github/
             node_modules/
             *.test.js
             *.md
+          verbose: true # Enable detailed logs for debugging
